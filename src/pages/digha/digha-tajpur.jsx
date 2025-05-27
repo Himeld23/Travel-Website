@@ -1,7 +1,7 @@
 import data from '../../Components/package-details';
 import '../digha/single-package.css';
-import BookingForm from '../../Components/BookingForm';
 import { useState, useEffect } from 'react';
+import { Popup } from '../../Components/popup/popup';
 
 const Digha_Tajpur = () => {
   const DighaTajpur = data.packages.filter(dig => dig.skuID.includes('DIGHA-001'));
@@ -14,6 +14,7 @@ const Digha_Tajpur = () => {
   ];
 
   const [index, setIndex] = useState(0);
+  const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -33,68 +34,74 @@ const Digha_Tajpur = () => {
               <p className="package-description">{dig.description}</p>
             </div>
           </div>
-          <div className='description'>
-            <h2>{dig.markettingTitle}</h2>
-            <p>{dig.markettingSubTitle}</p>
-          </div>
-          <div className='inclusions-exclusions'>
-            <div className='inclusion'>
-                  <h3>Inclusions</h3>
-              <ul>
-                <li>{dig.inclusions[0]}</li>
-                <li>{dig.inclusions[1]}</li>
-                <li>{dig.inclusions[2]}</li>
-                <li>{dig.inclusions[3]}</li>
-              </ul>
+          <div className='bg-page'>
+            <div className='description'>
+              <h2>{dig.markettingTitle}</h2>
             </div>
-            <div className='exclusions'>
-                  <h3>Exclusions</h3>
-              <ul>
-                <li> {dig.exclusions[0]}</li>
-                    <li> {dig.exclusions[1]}</li>
-                        <li> {dig.exclusions[2]}</li>
-              </ul>
+
+            <div className='inclusions-exclusions'>
+              <div className='inclusion'>
+                <h3>Inclusions</h3>
+                <ul>
+                  <li>{dig.inclusions[0]}</li>
+                  <li>{dig.inclusions[1]}</li>
+                  <li>{dig.inclusions[2]}</li>
+                  <li>{dig.inclusions[3]}</li>
+                </ul>
+              </div>
+              <div className='exclusions'>
+                <h3>Exclusions</h3>
+                <ul>
+                  <li>{dig.exclusions[0]}</li>
+                  <li>{dig.exclusions[1]}</li>
+                  <li>{dig.exclusions[2]}</li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div className='gallery_grid'>
-            <h3>Photo Gallery</h3>
-            <div className='gallerys'>
-                {dig.gallery.map((img,index)=>{
-                    return(
- <img key={index} src={img.url} />
-                    ) 
-                })}
-            </div>
-          </div>
-      <div className='itinerary-section'>
-  <h3>Itinerary</h3>
-  {dig.itineraries.map((dayItem, index) => (
-    <div key={index} className='itinerary-day'>
-      <h4>Day {dayItem.day}: {dayItem.title}</h4>
-      <ul>
-        {dayItem.itinerary.map((item, idx) => (
-          <li key={idx}>
-            <p>{item.description}</p>
-            {item.details && (
-              <ul>
-                {item.details.map((detail, i) => (
-                  <li key={i}>{detail}</li>
+
+            <div className='gallery_grid'>
+              <h3>Photo Gallery</h3>
+              <div className='gallerys'>
+                {dig.gallery.map((img, index) => (
+                  <img key={index} src={img.url} />
                 ))}
-              </ul>
-            )}
-          </li>
-        ))}
-      </ul>
-    </div>
-  ))}
-</div>
-  <section class="cta">
-    <h2>Book Now for ₹4699/- per person (4-6 pax)</h2>
-    <p>Whether you seek adventure, scenic beauty, or cultural exploration, this package has it all! 🌊🌅</p>
-    <button>Book Now</button>
-  </section>    
+              </div>
+            </div>
+
+            <div className='itinerary-section'>
+              <h3>Itinerary</h3>
+              {dig.itineraries.map((dayItem, index) => (
+                <div key={index} className='itinerary-day'>
+                  <h4>Day {dayItem.day}: {dayItem.title}</h4>
+                  <ul>
+                    {dayItem.itinerary.map((item, idx) => (
+                      <li key={idx}>
+                        <p>{item.description}</p>
+                        {item.details && (
+                          <ul>
+                            {item.details.map((detail, i) => (
+                              <li key={i}>{detail}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+
+            <section className="cta">
+              <h3>{dig.price}</h3>
+              <p>{dig.markettingSubTitle}</p>
+              <button onClick={() => setShowPopup(true)}>Book Now</button> {/* ✅ FIXED */}
+            </section>
+          </div>
         </div>
       ))}
+
+      {/* ✅ Render popup only when needed */}
+      {showPopup && <Popup closePopup={() => setShowPopup(false)} />}
     </div>
   );
 };

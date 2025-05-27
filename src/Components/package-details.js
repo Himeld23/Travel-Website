@@ -8,6 +8,7 @@ const data = {
         description: 'Indulge in a carefully curated getaway that promises thrill, relaxation, and unforgettable memories. Here’s what awaits you:',
         markettingTitle: 'Book Now and let us create an unforgettable experience for you. Whether you seek adventure, scenic beauty, or cultural exploration, this package has it all! Secure your spot today for just ₹4699/- per person (4pax - 6 pax).',
         markettingSubTitle: 'We look forward to hosting you on this remarkable journey! 🌊🌅',
+        price: 'Book Now for ₹4699/- per person (4-6 pax)',
         inclusions:[
             'Comfortable accommodation tailored for relaxation.',
             'Thrilling water sports (Bumper Ride, Banana Ride, Speed Boat).',
@@ -63,6 +64,7 @@ const data = {
             title: 'TALSARI- BICHITRAPUR BEACH',
             subTitle: 'Explore the Coastal Charms of Digha, Talsari, and Bichitrapur',
             image: "https://oneday.travel/wp-content/uploads/one-day-kolkata-to-digha-sightseeing-tour-package-private-car-header.jpg",
+            price: 'Starts from ₹3999/- per person (minimum 6 pax)',
             description: 'Embark on a captivating 2-day journey through serene beaches, exhilarating activities, and cultural exploration. Here’s a glimpse of what this unforgettable experience has to offer:',
             markettingTitle: 'Starting from just ₹3999 per head (minimum 6 pax), this package combines adventure, relaxation, and cultural immersion, offering the perfect getaway for groups.',
             markettingSubTitle: 'Book your escape today and let the tranquil charm of Digha, Talsari, and Bichitrapur leave you spellbound. 🌊✨',
@@ -128,6 +130,7 @@ const data = {
             title: 'DIGHA SEA SAFARI',
             subTitle: 'Digha Sea Safari: A Mesmerizing Coastal Adventure',
             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8IUYyr0xZrt2NailfQzlGWD0b1NtA0jWXA&s",
+            price: 'Starts from ₹6999/- per person (4pax or 6 pax)',
             description: 'Escape to the pristine beaches of Digha and beyond with our exclusive Sea Safari Package. Indulge in breathtaking boat rides, thrilling water sports, and serene explorations along the Bay of Bengal. Here’s what awaits you:',
             markettingTitle: 'Starting at ₹6999 per person (4pax 6 pax), this package offers the perfect blend of adventure, relaxation, and scenic beauty.',
             markettingSubTitle: 'Book Now to secure your spot on this one-of-a-kind coastal escapade and create memories that will last a lifetime! 🌊🚤✨',

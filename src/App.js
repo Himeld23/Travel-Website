@@ -5,6 +5,7 @@ import Digha from './pages/digha/Digha';
 import Digha_sea_beach from './pages/digha/digha-sea-beach';
 import Digha_Tajpur from './pages/digha/digha-tajpur';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Talsari from './pages/digha/talsari';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/digha" element={<Digha/>} />
         <Route path="/digha_sea_beach" element={<Digha_sea_beach/>} />
         <Route path='/package/DIGHA-001' element ={<Digha_Tajpur/>} />
+        <Route path='/package/DIGHA-002' element={<Talsari/>}/>
       </Routes>
     </Router>
   );
