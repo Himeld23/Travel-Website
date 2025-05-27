@@ -196,7 +196,7 @@ padding-bottom: 30px;
 
 .section_packages {
     display: flex;
-    width: 80%;
+    max-width: 980px;
     gap: 40px;
     flex-direction: row;
 }

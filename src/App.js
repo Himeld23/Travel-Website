@@ -10,6 +10,8 @@ import Mandtalsari from './pages/mandarmani/MandTalsari';
 import Mandtalbi from './pages/mandarmani/mandtalbich';
 import Maep from './pages/mandarmani/maep';
 import Jharkand from './pages/jharkand/jharkand';
+import Jharkandvil from './pages/jharkand/jharkandvillage';
+import Jharkandvilheritage from './pages/jharkand/jharkandvillheritage';
 function App() {
   return (
     <Router>
@@ -24,6 +26,8 @@ function App() {
          <Route path='/package/MANDARMONI-002' element={<Mandtalbi/>}/>
             <Route path='/package/MANDARMONI-003' element={<Maep/>}/>
             <Route path='/jharkand' element={<Jharkand/>}/>
+         <Route path='/package/JHARKHAND-001' element={<Jharkandvil/>}/>
+          <Route path='/package/JHARKHAND-002' element={<Jharkandvilheritage/>}/>
       </Routes>
     </Router>
   );

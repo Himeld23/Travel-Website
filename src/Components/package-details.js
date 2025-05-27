@@ -412,11 +412,21 @@ const data = {
             id: 7,
             skuID: 'JHARKHAND-001',
             title: 'JOURNEY THROUGH THE VILLAGES OF JHARKHAND',
+            image:"https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/01/08/2f3f282a9bfcef08e3e93630853f7173_400x400.jpg",
             subTitle: 'Tribal and Village Heritage Tour: A 4-Day Journey Through Culture, Art, and Tradition',
             description: 'Experience the rich cultural heritage of India on this 3 Nights/4 Days Tribal and Village Heritage Tour. This journey will immerse you in the traditions, arts, and lifestyle of rural communities, offering an authentic and enriching exploration of tribal art, local customs, and the natural beauty of rural India.',
             markettingTitle: 'Price: ₹13,999 per person (2-6 pax).',
+            price: 'Starts from ₹6999/- per person (4pax or 6 pax)',
             markettingSubTitle: 'This is your chance to immerse yourself in the captivating world of tribal art and village life. Book your spot today for a truly enriching experience that celebrates India’s diverse cultural heritage. 🌿🎨',
-    
+     gallery : [
+                   {url:"https://cdn1.tripoto.com/media/filter/tst/img/2470943/Image/1694584906_explore_digha_the_most_popular_sea_beach_in_west_bengal_india_5.png"},
+                    {url:"https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1525341720/Digha_Blog_1525341701.jpg"},
+                     {url:"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1688658762/bbj/nhcu8zaa0vayel2qjnog.jpg"},
+                      {url:"https://media.istockphoto.com/id/1165042145/photo/fishing-boats.jpg?s=612x612&w=0&k=20&c=xh2X98Z_Rj6bBBjUIThzU4FoJm3HhZSQP46QN1l8kN0="},
+                       {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33aKNA7JujJ_gyVcogMyktzImuzaYIHw2iIfdrGowl791pC13RNnlh8r0Zi9tqkfSdNo&usqp=CAU"},
+                        {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv94km-Db0eF4t04uN3Ud3RMAlYduP5uieAw&s"}
+
+        ],
             inclusions:[
                 'Immersive Tribal Art and Culture: Experience the rich artistry and craftsmanship of the Kurmi, Santhal, and other tribal communities through direct interactions with local artists.',
                 'Authentic Village Encounters: Visit traditional villages like Lukiya, Purnapani, and Kharti, offering a rare chance to experience tribal life in its purest form.',
@@ -502,10 +512,20 @@ const data = {
             skuID: 'JHARKHAND-002',
             title: 'Village and Tribal Heritage Tour',
             subTitle: 'A Journey Through Art, Culture, and Tradition',
+                        image:"https://indiatouristspots.weebly.com/uploads/7/9/4/2/79421790/netarhat-in-jharkhand-1_orig.jpg",
             description: 'Step into the heart of rural India with our 2 Nights/3 Days Village and Tribal Heritage Tour, designed to offer an immersive experience of local art, traditions, and village life. From visiting vibrant villages and meeting talented artisans to exploring the rich history and culture of the region, this journey promises a unique and authentic adventure.',
             markettingTitle: 'Price: starting from ₹10,699 per person (minimum 2, maximum 6 pax)',
+            price: 'Starts from ₹6999/- per person (4pax or 6 pax)',
             markettingSubTitle: 'This immersive journey will introduce you to the timeless art and deep-rooted traditions of tribal India. Book now for a truly enriching cultural experience! 🌾🎨',
-    
+     gallery : [
+                   {url:"https://cdn1.tripoto.com/media/filter/tst/img/2470943/Image/1694584906_explore_digha_the_most_popular_sea_beach_in_west_bengal_india_5.png"},
+                    {url:"https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1525341720/Digha_Blog_1525341701.jpg"},
+                     {url:"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1688658762/bbj/nhcu8zaa0vayel2qjnog.jpg"},
+                      {url:"https://media.istockphoto.com/id/1165042145/photo/fishing-boats.jpg?s=612x612&w=0&k=20&c=xh2X98Z_Rj6bBBjUIThzU4FoJm3HhZSQP46QN1l8kN0="},
+                       {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33aKNA7JujJ_gyVcogMyktzImuzaYIHw2iIfdrGowl791pC13RNnlh8r0Zi9tqkfSdNo&usqp=CAU"},
+                        {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv94km-Db0eF4t04uN3Ud3RMAlYduP5uieAw&s"}
+
+        ],
             inclusions:[
                 'Immersive experiences in tribal villages, where you’ll meet artisans and engage with local culture.',
                 'A chance to explore the Sanskriti Museum, home to invaluable art and workshops.',

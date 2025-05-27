@@ -3,8 +3,8 @@ import '../jharkand/single-package.css';
 import { useState, useEffect } from 'react';
 import { Popup } from '../../Components/popup/popup';
 
-const Jharkandvil = () => {
-  const jkvilla = data.packages.filter(dig => dig.skuID.includes('JHARKHAND-001'));
+const Jharkandvilheritage = () => {
+  const jkvillaher = data.packages.filter(dig => dig.skuID.includes('JHARKHAND-002'));
 
   const imgs = [
     "https://site.outlookindia.com/traveller/wp-content/uploads/2018/03/fishing-beach-Digha-west-bengal.jpg",
@@ -25,7 +25,7 @@ const Jharkandvil = () => {
 
   return (
     <div className="package-detail-container">
-      {jkvilla.map((dig) => (
+      {jkvillaher.map((dig) => (
         <div className="package-detail-card" key={dig.skuID}>
           <div className="package-hero" style={{ backgroundImage: `url(${imgs[index]})` }}>
             <div className="package-hero-overlay"></div>
@@ -106,4 +106,4 @@ const Jharkandvil = () => {
   );
 };
 
-export default Jharkandvil;
+export default Jharkandvilheritage;
