@@ -1,0 +1,328 @@
+.hero {
+    position: relative;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+      font-family: "Nunito", sans-serif;
+
+  
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 50% opacity */
+    z-index: 1;
+}
+
+.hero-content {
+      font-family: "Nunito", sans-serif;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 70%;
+}
+.hero-content h1{
+      font-family: "Nunito", sans-serif;
+    font-size: 55px;
+}
+.hero-content p {
+      font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+.package_section {
+      font-family: "Nunito", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0 105px;
+    width: 80%;
+    margin: auto;
+    gap: 25px;
+}
+
+.package_section h4 {
+    font-size: 35px;
+    margin: 0;
+      font-family: "Nunito", sans-serif;
+}
+
+.PackageContainer {
+    display: flex;
+      font-family: "Nunito", sans-serif;
+    margin: auto;
+    width: 80%;
+    flex-direction: row;
+    gap: 30px;
+}
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+
+  
+.Cards_box {
+      font-family: "Nunito", sans-serif;
+    width: 33.3%;
+    padding: 20px;
+    background: #0047AB	;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+    border-radius: 10px;   
+    animation: 1.5s fadeInUp;
+}
+
+
+
+.Cards_img img {
+    width: 100%;
+}
+.Cards_about h3 {
+    font-size: 25px;
+    margin: 0;
+      font-family: "Nunito", sans-serif;
+    padding: 10px 0;
+}
+
+.Cards_about p {
+    margin: 0;
+      font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+.pack_btn {
+    background-color: #fff;
+    border: none;
+    padding: 6px 25px ;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 10px 0;
+      font-family: "Nunito", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pack_btn:hover {
+    background-color: #E49B0F		;
+    animation: bounce 0.6s;
+    color: #fff;
+      font-family: "Nunito", sans-serif;
+}
+
+@media (min-width: 768px)and (max-width: 1024px) {
+    .package_section {
+        width: 100%;
+    }
+    .pack_btn {
+        font-size: 16px   ;
+    }
+    .hero {
+        height: 450px;
+    }
+}
+@media (min-width: 350px)and (max-width: 767px) {
+    .package_section {
+        width: 100%;
+    }
+    .hero {
+        width: 100%;
+        padding: 30px 0;
+        height: auto;
+        
+    }
+    .hero-content {
+        max-width: 85%;
+    }
+    .hero-content h1{
+        font-size: 35px;
+          font-family: "Nunito", sans-serif;
+    }
+    .PackageContainer {
+        display: flex;
+          font-family: "Nunito", sans-serif;
+        margin: auto;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .Cards_box {
+    width: 80%;}
+}
+
+
+.all_packages{
+    display: flex;
+      font-family: "Nunito", sans-serif;
+    justify-content: center;
+    align-items: center;
+      font-family: "Nunito", sans-serif;
+    flex-direction: column;
+    padding: 70px 0;
+}
+.all_packages h2 {
+font-size: 34px;
+text-align: center;
+margin: 0;
+padding-bottom: 30px;
+}
+
+.section_packages {
+    display: flex;
+    width: 80%;
+    gap: 40px;
+    flex-direction: row;
+}
+.location {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.location img {
+    width: 100%;
+    height: auto;
+}
+
+.location h4{
+    margin: 0;
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.location button {
+    background-color: #0047AB;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.packages-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.package-card {
+    display: flex
+;
+  overflow: hidden;
+  position: relative;
+    flex-direction: column;
+    align-items: center;
+    background: #fbf6e9;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+.package-card img {
+  width: 100%;
+  transition: transform 0.4s ease;
+  display: block;
+  border-radius: 10px;
+}
+
+.package-card:hover img {
+  transform: scale(1.1) rotate(1deg);
+}
+
+.package-card h2{
+    margin: 0;
+    font-size: 24px;
+    padding: 20px 0 10px;
+}
+.package-card h4{
+    margin: 0;
+}
+/* .learn-more-btn {
+background-color: #0047AB;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+        margin: 18px 0px;
+
+} */
+.learn-more-btn
+ {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  position: relative;
+  background-color: #0047AB;
+    font-family: "Nunito", sans-serif;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: #fff;
+  display: inline-block;
+  border: none;
+}
+
+.learn-more-btn::after,
+.learn-more-btn::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #0047AB, #000);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.learn-more-btn::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.learn-more-btn:hover::after,
+.learn-more-btn:hover::before {
+  transform: scaleX(1);
+}
+
+    
+@media (min-width: 350px)and (max-width: 767px) {
+    .section_packages {
+        display: flex;
+        width: 100%;
+        gap: 40px;
+        flex-direction: column;
+    }
+    .all_packages{
+        padding: 70px 20px;
+    }
+    
+.packages-container {
+    display: flex
+;
+    gap: 20px;
+    flex-direction: column;
+}
+}

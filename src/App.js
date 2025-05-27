@@ -9,6 +9,7 @@ import Dighaseabeach from './pages/digha/digha-sea-beach';
 import Mandtalsari from './pages/mandarmani/MandTalsari';
 import Mandtalbi from './pages/mandarmani/mandtalbich';
 import Maep from './pages/mandarmani/maep';
+import Jharkand from './pages/jharkand/jharkand';
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
          <Route path='/package/MANDARMONI-001' element={<Mandtalsari/>}/>
          <Route path='/package/MANDARMONI-002' element={<Mandtalbi/>}/>
             <Route path='/package/MANDARMONI-003' element={<Maep/>}/>
+            <Route path='/jharkand' element={<Jharkand/>}/>
       </Routes>
     </Router>
   );
