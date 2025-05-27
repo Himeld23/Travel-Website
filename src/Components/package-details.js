@@ -202,11 +202,20 @@ const data = {
             id: 4,
             skuID: 'MANDARMONI-001',
             title: 'MANDARMON- TALSARI',
+            image:"https://cdn.guidetour.in/wp-content/uploads/2017/05/Places-to-visit-in-Mandarmani.jpg.webp",
             subTitle: 'Discover the Tranquil Beauty of Mandarmoni and Tajpur',
             description: 'Escape to the serene coastal charm of Mandarmoni and Tajpur with this exclusive 2-day itinerary. From thrilling water sports to stunning sunsets, this package is designed to offer you an unforgettable experience.',
             markettingTitle: 'Price: ₹5699 per person (minimum 6 pax). This package perfectly blends adventure, relaxation, and cultural exploration.',
             markettingSubTitle: 'Book Now and let us make your coastal getaway an experience to remember! 🌊✨',
-    
+            gallery : [
+                   {url:"https://cdn1.tripoto.com/media/filter/tst/img/2470943/Image/1694584906_explore_digha_the_most_popular_sea_beach_in_west_bengal_india_5.png"},
+                    {url:"https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1525341720/Digha_Blog_1525341701.jpg"},
+                     {url:"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1688658762/bbj/nhcu8zaa0vayel2qjnog.jpg"},
+                      {url:"https://media.istockphoto.com/id/1165042145/photo/fishing-boats.jpg?s=612x612&w=0&k=20&c=xh2X98Z_Rj6bBBjUIThzU4FoJm3HhZSQP46QN1l8kN0="},
+                       {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33aKNA7JujJ_gyVcogMyktzImuzaYIHw2iIfdrGowl791pC13RNnlh8r0Zi9tqkfSdNo&usqp=CAU"},
+                        {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv94km-Db0eF4t04uN3Ud3RMAlYduP5uieAw&s"}
+
+        ],
             inclusions:[
                 'Comfortable accommodation to ensure a restful stay.',
                 'Exciting water sports: Bumper Ride, ATV Ride, and Speed Boat.',
@@ -263,11 +272,20 @@ const data = {
             id: 5,
             skuID: 'MANDARMONI-002',
             title: 'MANDARMOBI- TALSARI- BICHITAPUR',
+            image:"https://content.r9cdn.net/rimg/dimg/8a/0e/a9984084-city-310639-1699c662f35.jpg?width=1366&height=768&xhint=1736&yhint=2323&crop=true",
             subTitle: 'Mandarmoni – Talsari – Bichitrapur Beach Getaway',
             description: 'Embark on a delightful 2-day retreat to explore the stunning beaches, thrilling adventures, and serene landscapes of Mandarmoni, Talsari, and Bichitrapur. A perfect blend of excitement and relaxation awaits you!',
             markettingTitle: 'Starting at just ₹4499 per person (minimum 6 pax), this package is a perfect escape for those seeking adventure, scenic beauty, and relaxation.',
             markettingSubTitle: 'Book Now to secure your spot on this unforgettable coastal journey. 🌊✨',
-    
+    gallery : [
+                   {url:"https://cdn1.tripoto.com/media/filter/tst/img/2470943/Image/1694584906_explore_digha_the_most_popular_sea_beach_in_west_bengal_india_5.png"},
+                    {url:"https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1525341720/Digha_Blog_1525341701.jpg"},
+                     {url:"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1688658762/bbj/nhcu8zaa0vayel2qjnog.jpg"},
+                      {url:"https://media.istockphoto.com/id/1165042145/photo/fishing-boats.jpg?s=612x612&w=0&k=20&c=xh2X98Z_Rj6bBBjUIThzU4FoJm3HhZSQP46QN1l8kN0="},
+                       {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33aKNA7JujJ_gyVcogMyktzImuzaYIHw2iIfdrGowl791pC13RNnlh8r0Zi9tqkfSdNo&usqp=CAU"},
+                        {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv94km-Db0eF4t04uN3Ud3RMAlYduP5uieAw&s"}
+
+        ],
             inclusions:[
                 'Comfortable accommodations for a relaxing stay.',
                 'Exciting water sports: Banana Ride and ATV Ride.',
@@ -322,10 +340,19 @@ const data = {
             skuID: 'MANDARMONI-003',
             title: 'Mandarmoni Exclusive Adventure Package',
             subTitle: 'Mandarmoni – Talsari – Bichitrapur Beach Getaway',
+            image:"https://static.toiimg.com/photo/msid-48001352,width-96,height-65.cms",
             description: 'If you crave a perfect blend of adrenaline, scenic beauty, and relaxation, the Mandarmoni Exclusive Adventure Package is designed just for you! Spend two unforgettable days filled with thrilling water sports, scenic boat rides, and exciting exploration.',
             markettingTitle: 'Starting at ₹7299 per person (minimum 4 pax, maximum 6 pax), this package offers the ultimate combination of adventure, relaxation, and coastal charm.',
             markettingSubTitle: 'Book Now for an unforgettable escape to Mandarmoni and experience the thrill of a lifetime! 🌊🚤✨',
-    
+    gallery : [
+                   {url:"https://cdn1.tripoto.com/media/filter/tst/img/2470943/Image/1694584906_explore_digha_the_most_popular_sea_beach_in_west_bengal_india_5.png"},
+                    {url:"https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1525341720/Digha_Blog_1525341701.jpg"},
+                     {url:"https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1688658762/bbj/nhcu8zaa0vayel2qjnog.jpg"},
+                      {url:"https://media.istockphoto.com/id/1165042145/photo/fishing-boats.jpg?s=612x612&w=0&k=20&c=xh2X98Z_Rj6bBBjUIThzU4FoJm3HhZSQP46QN1l8kN0="},
+                       {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33aKNA7JujJ_gyVcogMyktzImuzaYIHw2iIfdrGowl791pC13RNnlh8r0Zi9tqkfSdNo&usqp=CAU"},
+                        {url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv94km-Db0eF4t04uN3Ud3RMAlYduP5uieAw&s"}
+
+        ],
             inclusions:[
                 'Comfortable accommodation designed for relaxation and comfort.',
                 'A variety of exciting water sports: ATV Ride, Bumper Ride, Banana Ride, Disco Ride, Archery, Speed Boat Ride, and Buggy Ride.',

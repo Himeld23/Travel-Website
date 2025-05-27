@@ -1,15 +1,15 @@
 import data from '../../Components/package-details';
-import '../digha/single-package.css';
+import '../mandarmani/single-package.css';
 import { useState, useEffect } from 'react';
 import { Popup } from '../../Components/popup/popup';
 
-const Digha_Tajpur = () => {
-  const DighaTajpur = data.packages.filter(dig => dig.skuID.includes('DIGHA-001'));
+const Mandtalsari = () => {
+  const Mtalsari = data.packages.filter(dig => dig.skuID.includes('MANDARMONI-001'));
 
   const imgs = [
-    "https://www.travelescape.in/wp-content/uploads/2017/08/Digha-Beach.jpg",
-    "https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/05/16113231/digha1.jpg",
-    "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/23/265c2d74294dae4cd58d5709a53bee96_1000x1000.jpg",
+    "https://site.outlookindia.com/traveller/wp-content/uploads/2018/03/fishing-beach-Digha-west-bengal.jpg",
+    "https://d2gsigjpujdc9o.cloudfront.net/images/locations/places/1628685016_digha-destination-img5.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmh_joVQGxmHXULfAmawLFu87SU1Y2xyQnPmuLn8IvcbaGvgsM-7NgauuX97j0hxh_S8&usqp=CAU",
     "https://www.emperortraveline.com/wp-content/uploads/2017/09/Digha.jpg"
   ];
 
@@ -25,7 +25,7 @@ const Digha_Tajpur = () => {
 
   return (
     <div className="package-detail-container">
-      {DighaTajpur.map((dig) => (
+      {Mtalsari.map((dig) => (
         <div className="package-detail-card" key={dig.skuID}>
           <div className="package-hero" style={{ backgroundImage: `url(${imgs[index]})` }}>
             <div className="package-hero-overlay"></div>
@@ -107,4 +107,4 @@ const Digha_Tajpur = () => {
   );
 };
 
-export default Digha_Tajpur;
+export default Mandtalsari;
